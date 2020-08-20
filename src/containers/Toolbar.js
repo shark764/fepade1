@@ -19,7 +19,9 @@ function Toolbar() {
         onChange={event => setSearch(event.target.value)}
       />
 
-      <span>{search}</span>
+      <span>
+        <strong>{search}</strong>
+      </span>
     </div>
   );
 }
