@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
-body {
+html {
   margin: 24x;
+}
+
+input {
+  margin: 0px 16px;
 }
